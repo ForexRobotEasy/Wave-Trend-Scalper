@@ -1,0 +1,47 @@
+
+//+------------------------------------------------------------------+
+//|                                       Wave Trend Scalper         |
+//|                            Copyright © 2021 forexroboteasy.com    |
+//|                                         Forex Robot Easy Team     |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add necessary initialization code here
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add necessary deinitialization code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add necessary trading logic here
+}
+
+//+------------------------------------------------------------------+
+//| Expert main program                                              |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Add necessary main program code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert execution function                                        |
+//+------------------------------------------------------------------+
+void OnCalculate(const int rates_total, const int prev_calculated, const int begin, const double &price[])
+{
+    // Add necessary calculation code here
+}
